@@ -1,0 +1,17 @@
+@import "~bootstrap/scss/bootstrap";
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  outline: none;
+}
+
+body {
+  font-family: $default-font;
+  background-color: cadetblue;
+}

@@ -1,0 +1,19 @@
+@import 'var';
+@import 'mixin';
+@import 'settings';
+
+//STYLES FROM APP
+figure[data-embed-type="image"] {
+  max-width: 100%;
+}
+
+figure[data-embed-type="image"] img {
+  max-width: 100%;
+}
+//END STYLES FROM APP
+
+.article-container-b {
+  &__read-more-link {
+    max-width: max-content;
+  }
+}
