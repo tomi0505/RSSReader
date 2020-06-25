@@ -8,13 +8,13 @@ const createArticleItemDOM = function(articleItemData) {
   
   const articleItemDOMPattern =
     `
-    <div class="card">
+    <div class="card overflow-hidden">
       <img src="${articleItemData.imgURL}" class="card-img-top" alt="${articleItemData.title}">
-      <div class="card-body">
+      <div class="card-body overflow-hidden">
         <h5 class="card-title">${articleItemData.title}</h5>
         <p class="card-text">${articleItemData.description}</p>
       </div>
-      <a href="${articleItemData.allContentURL}" target="_blank" class="btn btn-primary ml-auto mb-4 mr-4 article-container-b__read-more-link">Czytaj dalej</a>
+      <a href="${articleItemData.allContentURL}" target="_blank" class="btn btn-success ml-auto mb-4 mr-4 article-container-b__read-more-link">Czytaj dalej</a>
       <div class="card-footer">
         <small class="text-muted">${articleItemData.publicationDate.toLocaleString()}</small>
       </div>
